@@ -2,11 +2,10 @@
   "ID": "7bfc4332-55t0-4d40-b4cc-530889g415a0",
   "ActionKeyword": "tr",
   "Name":"Translate Tool",
-  "Description": "a plugin of transition",
+  "Description": "a plugin of translation",
   "Author": "qjc",
   "Version": "0.0.1",
   "Language": "executable",
-  "Website": "https://github.com/qjcXu/Flow.Launcher.Transition",
-  "IcoPath": "src/assets/imgs/app.png",
-  "ExecuteFileName": "star.bat"
+  "Website": "https://github.com/qjcXu/Flow.Launcher.Translation",
+  "IcoPath": "src/assets/imgs/app.png"
 }
