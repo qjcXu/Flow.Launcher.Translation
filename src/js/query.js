@@ -19,8 +19,8 @@ export function query(parameters) {
         }])
       } catch (e) {
         err([{
-          Title: 'slow down',
-          SubTitle: 'not support quick enter',
+          Title: '请减慢输入速度~~',
+          SubTitle: '不支持连续输入~~',
           IcoPath: config.IcoPath,
           score: 100,
         }])
@@ -28,8 +28,8 @@ export function query(parameters) {
     })
   }
   err([{
-    Title: 're enter',
-    SubTitle: 'not support quick',
+    Title: '请重新输入~~',
+    SubTitle: '不支持你输入的语言~~',
     IcoPath: config.IcoPath,
     score: 100,
   }])
@@ -40,8 +40,8 @@ function success(result = []) {
     console.log(JSON.stringify({ result }));
   } catch {
     err([{
-      Title: 're enter',
-      SubTitle: 'not support one of languages which you entered',
+      Title: '请重新输入~~',
+      SubTitle: '不支持你输入的语言',
       IcoPath: config.IcoPath,
       score: 100,
     }])
@@ -55,8 +55,8 @@ function err(result = []) {
 
 function getHelpResult() {
 	return {
-		Title: 'github doc',
-		SubTitle: "Click to open documentation",
+		Title: '打开文档',
+		SubTitle: "github doc",
 		IcoPath: config.IcoPath,
 		jsonRPCAction: {
 			method: "open_in_url",
