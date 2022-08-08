@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "flow.launcher.transition",
+  "version": "0.0.1",
+  "description": "a plugin of translation in Flow.Launcher",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qjcXu/Flow.Launcher.Transition.git"
+  },
+  "author": "qjc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qjcXu/Flow.Launcher.Transition/issues"
+  },
+  "homepage": "https://github.com/qjcXu/Flow.Launcher.Transition#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "open": "^8.4.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
