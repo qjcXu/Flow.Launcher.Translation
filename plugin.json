@@ -7,5 +7,6 @@
   "Version": "0.0.1",
   "Language": "executable",
   "Website": "https://github.com/qjcXu/Flow.Launcher.Translation",
+  "ExecuteFileName": "start.bat",
   "IcoPath": "src/assets/imgs/app.png"
 }
