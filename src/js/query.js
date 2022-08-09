@@ -8,8 +8,8 @@ export function query(parameters) {
     const args = argsZ === null ? argsE : argsZ
     const to = args[0].charAt(0) === 'e' ? 'en' : 'zh'
     const from = to === 'en' ? 'zh' : 'en'
-
-    return translate(from, to, args[1], res => {
+    const q = args.input.slice(2)
+    return translate(from, to, q, res => {
       try {
         success([{
           Title: res.trans_result[0].src + ' => ' + res.trans_result[0].dst,
