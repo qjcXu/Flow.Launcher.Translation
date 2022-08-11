@@ -18,7 +18,7 @@
 
 在 `config` 目录下的 `config.js` 文件中填写你的 appid 和 key
 
-![config](https://github.com/qjcXu/Flow.Launcher.Transition/blob/master/src/assets/imgs/config.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/config.png)
 
 ### 使用
 
@@ -29,13 +29,13 @@
 
 中译英，`tr e 苹果` 
 
-![中译英](https://github.com/qjcXu/Flow.Launcher.Transition/blob/master/src/assets/imgs/option2.png)
+![中译英](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/option2.png)
 
 英译中， `tr z apple` 
 
-![英译中](https://github.com/qjcXu/Flow.Launcher.Transition/blob/master/src/assets/imgs/option1.png)
+![英译中](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/option1.png)
 
-### 注意事项
+
 
 目前只支持中英互译， 且只能翻译单个词或单个句子
 
