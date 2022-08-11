@@ -3,7 +3,7 @@ export const config = {
   timePath: '/assets/time.txt',
   intervalTime: 2, // 秒 s 建议 2秒
   DocUrl: 'https://github.com/qjcXu/Flow.Launcher.Translation#readme',
-  appid: '20210928000958862',
-  key: '4eKZI7cMc8y7wf75vNtD',
+  appid: '百度翻译appid',
+  key: '百度翻译key',
   transUrl: 'http://api.fanyi.baidu.com/api/trans/vip/translate'
 }
