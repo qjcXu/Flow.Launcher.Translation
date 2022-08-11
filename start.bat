@@ -2,8 +2,8 @@
 SET plugin_dir=%~dp0%
 SET icon=%plugin_dir%images\icon.png
 SET "icon=%icon:\=/%"
-SET title="Error: Node.js is not installed on your system."
-SET subtitle="Please install it from nodejs.org to use the DateDiff plugin!"
+SET title="Error: 您的电脑不存在 Node.js"
+SET subtitle="请下载并安装 Nods.js"
 
 
 where /q node
