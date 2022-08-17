@@ -10,5 +10,5 @@ where /q node
 IF ERRORLEVEL 1 (
     echo {"result": [{"Title": %title%, "Subtitle": %subtitle%, "IcoPath": "%icon%"}]}
 ) ELSE (
-    node %plugin_dir%/src/main.js %*
+    node "%plugin_dir%/src/main.js" %*
 )
