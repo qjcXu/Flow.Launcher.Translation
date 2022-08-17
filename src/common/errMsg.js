@@ -6,5 +6,6 @@ export const errMsg = {
   notSQE: `不支持快速且连续输入, 请等待${config.intervalTime}秒以上`,
   notSL: '不支持你输入的语言',
   reEC: '请检查config文件',
-  network: '网络连接错误~~'
+  network: '网络连接错误~~',
+  appidNotFound: '百度翻译appid或key不应为空',
 }

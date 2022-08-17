@@ -10,6 +10,9 @@ export async function query(parameters, fPath) {
   const argsE = parameters.trim().match(/^e ([\u4e00-\u9fa5]+)/)
   const iconPath = path.join(fPath, config.IcoPath)
   if (argsZ !== null || argsE !== null) {
+    if (config.appid === '' || config.key === '') {
+      return err(returnC(errMsg.appidNotFound, errMsg.reEC, iconPath, null, 100), iconPath)
+    }
     const timePath = path.join(fPath, config.timePath)
     const lastTime = timeIO(timePath, true)
     if (!isPermit(lastTime, timePath)) {
@@ -22,7 +25,7 @@ export async function query(parameters, fPath) {
     const from = to === 'en' ? 'zh' : 'en'
     const { data: res } = await axios.get(
       `${config.transUrl}?q=${params.query}&appid=${params.appid}&salt=${params.salt}&from=${from}&to=${to}&sign=${params.sign}`
-    ).catch(err => {
+    ).catch(e => {
       return err(returnC(errMsg.network, errMsg.reEC, iconPath, null, 100), iconPath)
     })
     if (res.trans_result) {
