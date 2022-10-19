@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "flow.launcher.translation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "a plugin of translation in Flow.Launcher",
   "main": "src/main.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "homepage": "https://github.com/qjcXu/Flow.Launcher.Translation#readme",
   "dependencies": {
     "axios": "^0.27.2",
-    "fs": "^0.0.1-security",
     "open": "^8.4.0",
     "path": "^0.12.7"
   }
