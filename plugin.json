@@ -1,12 +1,12 @@
 {
-  "ID": "7bfc4332-55t0-4d40-b4cc-530889g415a0",
+  "ID": "90fc2432-90u7-40p1-f89d-ul0889g409u1",
   "ActionKeyword": "tr",
-  "Name":"Translate Tool",
-  "Description": "a plugin of translation",
+  "Name":"Translation Tool",
+  "Description": "A translation plugin by Baidu Translate",
   "Author": "qjc",
-  "Version": "0.1.1",
+  "Version": "1.0.0",
   "Language": "executable",
   "Website": "https://github.com/qjcXu/Flow.Launcher.Translation",
   "ExecuteFileName": "start.bat",
-  "IcoPath": "src/assets/imgs/translate.png"
+  "IcoPath": "src/assets/images/app.png"
 }
