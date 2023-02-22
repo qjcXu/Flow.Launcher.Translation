@@ -4,9 +4,9 @@
   "Name":"Translation Tool",
   "Description": "A translation plugin by Baidu Translate",
   "Author": "qjc",
-  "Version": "1.0.0",
-  "Language": "executable",
+  "Version": "1.0.1",
+  "Language": "javascript",
   "Website": "https://github.com/qjcXu/Flow.Launcher.Translation",
-  "ExecuteFileName": "start.bat",
+  "ExecuteFileName": "./src/main.js",
   "IcoPath": "src/assets/images/app.png"
 }

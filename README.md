@@ -4,14 +4,6 @@
 
 一款使用在Flow Launcher中的使用[百度翻译](https://fanyi-api.baidu.com/)的翻译插件
 
-## 使用方法
-
-## 安装 Node.js
-
-如果已安装请忽略
-
-未安装请到 [nodejs.org](https://nodejs.org/zh-cn/) 官方网页上下载最新版nodejs运行环境
-
 ## 安放位置
 
 将下载得到的 zip 文件解压后得到的文件放在 C:\Users\用户名\AppData\Roaming\FlowLauncher\Plugins 目录下，之后重启Flow Launcher，最后在插件选项中开启该插件
