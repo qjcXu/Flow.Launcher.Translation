@@ -14,23 +14,27 @@
 
 ## 配置
 
-在 `config` 目录下的 `config.js` 文件中填写你的 appid 和 key
+在 `C:\Users\用户名\AppData\Roaming\FlowLauncher\Plugins\Flow.Launcher.Translation*.*.*` 目录下的 `config.js` 文件中填写你的 appid 和 key 并配置你常用的翻译结果语言默认为 en 英文
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/config.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/config.png)
 
 ## 使用
 
-### 中译英，`tr zh en 苹果`
+### 中译英方式一，`tr 苹果`
 
-![中译英](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option2.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/option1.png)
 
-### 英译中， `tr en zh apple`
+### 中译英方式二， `tr en 苹果`
 
-![英译中](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option1.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/option2.png)
 
-### 自动识别源语言
+### 英译中，`tr zh Apple`
 
-![auto](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option3.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/imgs/option3.png)
+
+## 复制功能
+
+点击翻译后的结果即可自动剪切到剪切板
 
 ## tips
 
