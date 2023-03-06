@@ -22,15 +22,15 @@
 
 ### 中译英方式一，`tr 苹果`
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option1.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option4.png)
 
 ### 中译英方式二， `tr en 苹果`
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option2.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option5.png)
 
 ### 英译中，`tr zh Apple`
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option3.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option6.png)
 
 ## 复制功能
 
