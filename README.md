@@ -12,9 +12,9 @@
 
 输入`tr appid` 查看自己的appid，输入`tr appid 你的appid`回车或者点击第一个选项修改
 
-输入`tr key` 查看自己的appid，输入`tr key 你的key`回车或者点击第一个选项修改
+输入`tr key` 查看自己的key，输入`tr key 你的key`回车或者点击第一个选项修改
 
-输入`tr dest` 查看自己的appid，输入`tr dest 常用目标语言`回车或者点击第一个选项修改
+输入`tr dest` 查看自己的常用目标语言，输入`tr dest 常用目标语言`回车或者点击第一个选项修改
 
 目标语言代码本文档最后可见
 
