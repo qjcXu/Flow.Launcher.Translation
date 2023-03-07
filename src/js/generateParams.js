@@ -1,5 +1,5 @@
 import { md5 } from '../utils/md5.js'
-import { config } from '../../config.js'
+import { config } from '../config/config.js'
 
 export function generateParams(query) {
   const salt = new Date().getTime()

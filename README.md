@@ -4,17 +4,19 @@
 
 一款使用在Flow Launcher中的使用[百度翻译](https://fanyi-api.baidu.com/)的翻译插件
 
-## 安放位置
-
-将下载得到的 zip 文件解压后得到的文件放在 C:\Users\用户名\AppData\Roaming\FlowLauncher\Plugins 目录下，之后重启Flow Launcher，最后在插件选项中开启该插件
-
 ## 注册
 
 在[百度翻译开放平台](https://fanyi-api.baidu.com/product/11)中注册成为使用者，获取百度翻译的 appid 和 key
 
 ## 配置
 
-在 `C:\Users\用户名\AppData\Roaming\FlowLauncher\Plugins\Flow.Launcher.Translation*.*.*` 目录下的 `config.js` 文件中填写你的 appid 和 key 并配置你常用的翻译结果语言默认为 en 英文
+输入`tr appid` 查看自己的appid，输入`tr appid 你的appid`回车或者点击第一个选项修改
+
+输入`tr key` 查看自己的appid，输入`tr key 你的key`回车或者点击第一个选项修改
+
+输入`tr dest` 查看自己的appid，输入`tr dest 常用目标语言`回车或者点击第一个选项修改
+
+目标语言代码本文档最后可见
 
 ![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/config.png)
 
@@ -22,15 +24,15 @@
 
 ### 中译英方式一，`tr 苹果`
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option4.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option1.png)
 
 ### 中译英方式二， `tr en 苹果`
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option5.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option2.png)
 
 ### 英译中，`tr zh Apple`
 
-![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option6.png)
+![config](https://cdn.jsdelivr.net/gh/qjcXu/Flow.Launcher.Transition/src/assets/images/option3.png)
 
 ## 复制功能
 

@@ -1,0 +1,9 @@
+{
+	"iconPath": "./assets/images/app.png",
+	"intervalTime": 2,
+	"docUrl": "https://github.com/qjcXu/Flow.Launcher.Translation#readme",
+	"appid": "",
+	"key": "",
+	"apiUrl": "https://fanyi-api.baidu.com/api/trans/vip/translate",
+	"dest": "zh"
+}
