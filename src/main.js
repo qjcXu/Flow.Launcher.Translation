@@ -4,10 +4,12 @@ import { modify } from './config/config.js'
 import open from 'open'
 const { method, parameters } = JSON.parse(process.argv[2])
 
+const throttleQuery = throttle(query, 500)
+
 switch (method) {
-	case 'query':
-		query(parameters[0])
-		break
+  	case 'query':
+    		throttleQuery(parameters[0])
+    		break
 	case 'open_url':
 		open(parameters[0])
 		break
@@ -19,3 +21,14 @@ switch (method) {
 		break
 }
 
+// 节流函数
+function throttle(func, delay) {
+  	let lastTime = 0
+  	return function (...args) {
+    		const currentTime = Date.now()
+    		if (currentTime - lastTime > delay) {
+      			func.apply(this, args)
+      			lastTime = currentTime
+    		}
+  	}
+}
