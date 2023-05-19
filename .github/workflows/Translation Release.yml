@@ -27,11 +27,11 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          zip -r Flow.Launcher.Translation-1.2.0.zip . -x '*.git*'
+          zip -r Flow.Launcher.Translation-1.3.0.zip . -x '*.git*'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
-          files: 'Flow.Launcher.Translation-1.2.0.zip'
+          files: 'Flow.Launcher.Translation-1.3.0.zip'
           tag_name: "v${{steps.version.outputs.prop}}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
