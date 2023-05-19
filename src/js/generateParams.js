@@ -4,14 +4,14 @@ import { config } from '../config/config.js'
 export function generateParams(query) {
   const salt = new Date().getTime()
   const str = config.appid + query + salt + config.key
-  query = encodeURI(query)
   const sign = md5(str)
   return {
-    query: query,
+    query: encodeURI(query),
     appid: config.appid,
     key: config.key,
     salt: salt,
     str: str,
-    sign: sign
+    sign: sign,
+    source: query
   }
 }
